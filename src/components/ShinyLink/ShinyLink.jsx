@@ -7,5 +7,6 @@ export default ({ ...props }) => {
   if (to) {
     return <Link {...props} className="ShinyLink" />;
   }
+  // eslint-disable-next-line
   return <a {...props} className="ShinyLink" />;
 };
