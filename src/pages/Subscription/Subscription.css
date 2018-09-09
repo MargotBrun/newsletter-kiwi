@@ -37,6 +37,7 @@
   font-weight: bold;
   font-size: 17px;
   line-height: 23px;
+  margin-bottom: 30px;
 }
 
 .SubscriptionPage_content_form {
@@ -56,8 +57,8 @@
   padding: 10px 2%;
   border: 1px solid #f9dc6d;
   color: #3fb0ac;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   width: 100%;
 }
 @media(min-width: 540px) {
@@ -68,7 +69,6 @@
 }
 
 .SubscriptionPage_content_form_submit {
-  font-family: 'Domine', Verdana, Tahoma, Geneva, serif;
   font-weight: 700;
   white-space: nowrap;
   min-height: 50px;
