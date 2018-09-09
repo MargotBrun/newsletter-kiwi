@@ -85,9 +85,23 @@
   transform: scale(1.1);
 }
 
+.SubscriptionPage_content_error {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #f9dc6d;
+}
+
 .SubscriptionPage_instagram {
   font-weight: 700;
   text-align: center;
   margin-top: 30px;
   line-height: 22px;
+}
+
+.SubscriptionPage_content_success {
+  text-align: center;
+}
+
+.SubscriptionPage_content_success_kiwi {
+  margin-top: 40px;
 }
