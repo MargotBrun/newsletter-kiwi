@@ -2,8 +2,13 @@
   "parser": "babel-eslint",
   "extends": [
     "airbnb",
-    "prettier"
+    "prettier",
+    "prettier/react"
   ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
   "rules": {
     "prettier/prettier": [
       "error",
@@ -18,7 +23,8 @@
         "functions": false
       }
     ],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "react/jsx-one-expression-per-line": "off",
   },
   "plugins": [
     "prettier"

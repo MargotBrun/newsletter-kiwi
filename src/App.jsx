@@ -7,7 +7,7 @@ export default () => (
   <Router>
     <Layout>
       <Switch>
-        <Route path="/inscription" exact component={SubscriptionPage} />
+        <Route path="/" exact component={SubscriptionPage} />
       </Switch>
     </Layout>
   </Router>
