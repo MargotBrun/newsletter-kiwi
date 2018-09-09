@@ -72,7 +72,7 @@ export default class SubscriptionPage extends React.Component {
             type="submit"
             disabled={isLoading}
           >
-            Je m'inscris
+            Je m&apos;inscris
           </button>
         </form>
         {error ? <p className="SubscriptionPage_content_error">{error}</p> : null}
