@@ -55,11 +55,13 @@
 .SubscriptionPage_content_form_email {
   font-size: 14px;
   padding: 10px 2%;
-  border: 1px solid #f9dc6d;
-  color: #3fb0ac;
+  border: 1px solid #e0dbdb;
+  animation: change-color 30s infinite;
+  animation-direction: alternate;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
+  font-weight: bold;
 }
 @media(min-width: 540px) {
   .SubscriptionPage_content_form_email {
@@ -82,8 +84,9 @@
 }
 
 .SubscriptionPage_content_form_submit_text {
-  animation: change-color 25s infinite;
+  animation: change-color 30s infinite;
   animation-direction: alternate;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @keyframes change-color {
