@@ -1,26 +1,17 @@
 import React from 'react';
 import './Confidentiality.css';
-import kiwiImg from './kiwi.png';
 
-export default class ConfidentialityPage extends React.Component {
-  renderContent = () => {
-    const { isSuccess } = this.state;
-    if (isSuccess) {
-      return this.renderSuccess();
-    }
-    return this.renderForm();
-  };
-
-  renderForm = () => (
+export default () => (
+  <div className="ConfidentialityPage">
     <div className="ConfidentialityPage_content">
       <h1 className="ConfidentialityPage_content_title">Politique de confidentialité</h1>
       <h2 className="ConfidentialityPage_content_subtitle">
         - La newsletter de Margot &amp; Paulin -
       </h2>
       <p className="ConfidentialityPage_content_intro">
-        Vous êtes intéressé par ce qu’il advient de votre adresse email ? Voici un peu de lecture
-        pour tenter de vous éclairer. N’hésitez-pas non plus à nous contacter pour toute information
-        :)
+        Vous êtes intéressé par ce qu’il advient de votre adresse email ? <br /> Voici un peu de
+        lecture pour tenter de vous éclairer. N’hésitez-pas non plus à nous contacter pour toute
+        information :)
       </p>
       <h3 className="ConfidentialityPage_content_subsubtitle">
         Préambule et champ d&apos;application
@@ -141,24 +132,5 @@ export default class ConfidentialityPage extends React.Component {
         Données Personnelles.
       </p>
     </div>
-  );
-
-  renderSuccess = () => {
-    const { successMessage } = this.state;
-    return (
-      <div className="ConfidentialityPage_content">
-        <h1 className="ConfidentialityPage_content_title">Merci&nbsp;!</h1>
-        <div className="ConfidentialityPage_content_success">
-          <p>{successMessage}</p>
-          <p className="ConfidentialityPage_content_success_kiwi">
-            <img src={kiwiImg} alt="Kiwi content" />
-          </p>
-        </div>
-      </div>
-    );
-  };
-
-  render() {
-    return <div className="ConfidentialityPage">{this.renderContent()}</div>;
-  }
-}
+  </div>
+);

@@ -77,10 +77,33 @@
   font-size: 18px;
   cursor: pointer;
   border: 1px;
-  color: #ffffff;
-  background: #f9dc6d;
+  background: #ffffff;
   transition: all 0.3s;
 }
+
+.SubscriptionPage_content_form_submit_text {
+  animation: change-color 25s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes change-color {
+  0% {
+    color: rgb(33,175,178);
+  }
+  25% {
+    color: rgb(75,131,191);
+  }
+  50% {
+    color: rgb(212,82,121);
+  }
+  75% {
+    color: rgb(241,162,78);
+  }
+  100% {
+    color: rgb(242,99,99);
+  }
+}
+
 .SubscriptionPage_content_form_submit:hover {
   transform: scale(1.1);
 }
