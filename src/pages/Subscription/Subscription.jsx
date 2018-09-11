@@ -104,8 +104,10 @@ export default class SubscriptionPage extends React.Component {
           <p>
             Suivez nous sur{' '}
             <ShinyLink href="https://www.instagram.com/djgomart/" target="_blank">
-              Instagram !
+              Instagram
             </ShinyLink>
+            &nbsp;
+            {'!'}
           </p>
         </div>
       </div>

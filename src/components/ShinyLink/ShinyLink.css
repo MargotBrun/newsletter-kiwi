@@ -1,13 +1,32 @@
 .ShinyLink {
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-image: linear-gradient(120deg, #ffffff 0%, #ffffff 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
-  background-position: 0 88%;
+  background-position: 0 98%;
   transition: background-size 0.25s ease-in;
   cursor: pointer;
 }
 
 .ShinyLink:hover {
   background-size: 100% 88%;
-  color: #2b7879;
+  animation: change-color 30s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes change-color {
+  0% {
+    color: rgb(33,175,178);
+  }
+  25% {
+    color: rgb(75,131,191);
+  }
+  50% {
+    color: rgb(212,82,121);
+  }
+  75% {
+    color: rgb(241,162,78);
+  }
+  100% {
+    color: rgb(242,99,99);
+  }
 }
