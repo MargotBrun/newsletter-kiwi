@@ -67,6 +67,7 @@ export default class SubscriptionPage extends React.Component {
             type="email"
             name="email"
             placeholder="Votre adresse email"
+            required
           />
           <SubmitButton isLoading={isLoading}>Je m&apos;inscris</SubmitButton>
         </form>

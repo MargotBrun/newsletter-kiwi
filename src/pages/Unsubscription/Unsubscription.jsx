@@ -64,6 +64,7 @@ export default class UnsubscriptionPage extends React.Component {
             type="email"
             name="email"
             placeholder="L'adresse email à désinscrire"
+            required
           />
           <SubmitButton isLoading={isLoading}>Me désinscrire</SubmitButton>
         </form>
@@ -73,19 +74,19 @@ export default class UnsubscriptionPage extends React.Component {
   };
 
   renderSuccess = () => (
-      <div className="UnsubscriptionPage_content">
-        <h1 className="UnsubscriptionPage_content_title">Snif&nbsp;!</h1>
-        <div className="UnsubscriptionPage_content_success">
-          <p>
-            Voilà, vous êtes bien désinscrit à notre newsletter. <br />
-            Vous ne recevrez plus d&apos;emails de notre part.
-          </p>
-          <p className="UnsubscriptionPage_content_success_kiwi">
-            <img src={kiwiImg} alt="Kiwi content" />
-          </p>
-        </div>
+    <div className="UnsubscriptionPage_content">
+      <h1 className="UnsubscriptionPage_content_title">Snif&nbsp;!</h1>
+      <div className="UnsubscriptionPage_content_success">
+        <p>
+          Voilà, vous êtes bien désinscrit à notre newsletter. <br />
+          Vous ne recevrez plus d&apos;emails de notre part.
+        </p>
+        <p className="UnsubscriptionPage_content_success_kiwi">
+          <img src={kiwiImg} alt="Kiwi content" />
+        </p>
       </div>
-    );
+    </div>
+  );
 
   render() {
     return <div className="UnsubscriptionPage">{this.renderContent()}</div>;
