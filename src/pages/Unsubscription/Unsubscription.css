@@ -56,34 +56,19 @@
 .UnsubscriptionPage_content_form_email {
   font-size: 14px;
   padding: 10px 2%;
-  border: 1px solid #f9dc6d;
-  color: #3fb0ac;
+  border: 1px solid #e0dbdb;
+  animation: change-color 28s infinite;
+  animation-direction: alternate;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
+  font-weight: bold;
 }
 @media(min-width: 540px) {
   .UnsubscriptionPage_content_form_email {
     flex: 1;
     margin-right: 5%;
   }
-}
-
-.UnsubscriptionPage_content_form_submit {
-  font-weight: 700;
-  white-space: nowrap;
-  min-height: 50px;
-  padding: 0px 22px;
-  text-align: center;
-  font-size: 18px;
-  cursor: pointer;
-  border: 1px;
-  color: #ffffff;
-  background: #f9dc6d;
-  transition: all 0.3s;
-}
-.UnsubscriptionPage_content_form_submit:hover {
-  transform: scale(1.1);
 }
 
 .UnsubscriptionPage_content_error {
