@@ -2,7 +2,7 @@
   font-family: Open Sans, Verdana, Tahoma, Geneva, serif;
   background-image: url("/images/background.png");
   background-color: rgb(33,175,178);
-  animation: change-background-color 30s infinite;
+  animation: change-background-color 28s infinite;
   animation-direction: alternate;
   position: relative;
   min-height: 100vh;

@@ -56,7 +56,7 @@
   font-size: 14px;
   padding: 10px 2%;
   border: 1px solid #e0dbdb;
-  animation: change-color 30s infinite;
+  animation: change-color 28s infinite;
   animation-direction: alternate;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -83,7 +83,7 @@
 }
 
 .SubscriptionPage_content_form_submit_text {
-  animation: change-color 30s infinite;
+  animation: change-color 28s infinite;
   animation-direction: alternate;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
