@@ -5,19 +5,13 @@ export default async () => {
     .first()
     .serialize();
   const { result } = await $.ajax({
-    url: 'https://my.sendinblue.com/users/subscribeembed/js_id/349gf/id/1',
+    url: 'https://my.sendinblue.com/users/unsubscribeembed/js_id/349gf/id/2',
     data: formData,
     dataType: 'json',
     type: 'POST',
   });
   if (result.result === 'success') {
-    return { error: false, message: result.succcess };
+    return { error: false, message: result.succcess_msg };
   }
-  if (result.result === 'invalid_request' || result.result === 'invalidEmail') {
-    return { error: true, message: result.invalid_err_msg };
-  }
-  if (result.result === 'emailExist') {
-    return { error: true, message: result.exist_err_msg };
-  }
-  return { error: true, message: "Une erreur s'est produite." };
+  return { error: true, message: "Cette adresse email n'est pas reconnue." };
 };

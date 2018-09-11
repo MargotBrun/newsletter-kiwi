@@ -10,22 +10,26 @@ export default class UnsubscriptionPage extends React.Component {
       error: null,
       isLoading: false,
       isSuccess: false,
-      successMessage: '',
     };
   }
 
   handleSubmit = async event => {
     event.preventDefault();
+    this.setState({
+      error: null,
+      isLoading: true,
+    });
     const res = await subscribe();
     if (res.error) {
       this.setState({
         error: res.message,
+        isLoading: false,
       });
     } else {
       this.setState({
         error: null,
         isSuccess: true,
-        successMessage: res.message,
+        isLoading: false,
       });
     }
   };
@@ -52,14 +56,13 @@ export default class UnsubscriptionPage extends React.Component {
         </p>
         <form className="UnsubscriptionPage_content_form" onSubmit={this.handleSubmit}>
           <input type="hidden" name="js_id" id="js_id" value="349gf" />
-          <input type="hidden" name="listid" id="listid" value="5" />
+          <input type="hidden" name="primary_type" id="primary_type" value="email" />
           <input type="hidden" name="from_url" id="from_url" value="yes" />
-          <input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="" />
           <input
             className="UnsubscriptionPage_content_form_email"
             type="email"
             name="email"
-            placeholder="Votre adresse email"
+            placeholder="L'adresse email à désinscrire"
           />
           <button
             className="UnsubscriptionPage_content_form_submit"
@@ -74,14 +77,11 @@ export default class UnsubscriptionPage extends React.Component {
     );
   };
 
-  renderSuccess = () => {
-    const { successMessage } = this.state;
-    return (
+  renderSuccess = () => (
       <div className="UnsubscriptionPage_content">
         <h1 className="UnsubscriptionPage_content_title">Snif&nbsp;!</h1>
         <div className="UnsubscriptionPage_content_success">
           <p>
-            {successMessage}
             Voilà, vous êtes bien désinscrit à notre newsletter. <br />
             Vous ne recevrez plus d&apos;emails de notre part.
           </p>
@@ -91,7 +91,6 @@ export default class UnsubscriptionPage extends React.Component {
         </div>
       </div>
     );
-  };
 
   render() {
     return <div className="UnsubscriptionPage">{this.renderContent()}</div>;
