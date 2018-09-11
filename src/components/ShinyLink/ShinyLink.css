@@ -1,32 +1,21 @@
 .ShinyLink {
-  background-image: linear-gradient(120deg, #ffffff 0%, #ffffff 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 98%;
-  transition: background-size 0.25s ease-in;
   cursor: pointer;
+  position: relative;
 }
-
-.ShinyLink:hover {
-  background-size: 100% 88%;
-  animation: change-color 28s infinite;
-  animation-direction: alternate;
+.ShinyLink::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  background: #FFF;
+  transform: scaleX(0);
+  opacity: 0;
+  transform-origin: 0 0;
+  transition: 0.3s;
 }
-
-@keyframes change-color {
-  0% {
-    color: rgb(33,175,178);
-  }
-  25% {
-    color: rgb(75,131,191);
-  }
-  50% {
-    color: rgb(212,82,121);
-  }
-  75% {
-    color: rgb(241,162,78);
-  }
-  100% {
-    color: rgb(242,99,99);
-  }
+.ShinyLink:hover::after {
+  transform: scaleX(1);
+  opacity: 1;
 }
