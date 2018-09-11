@@ -64,6 +64,7 @@
   width: 100%;
   font-weight: bold;
 }
+
 @media(min-width: 540px) {
   .UnsubscriptionPage_content_form_email {
     flex: 1;

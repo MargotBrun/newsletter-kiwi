@@ -63,6 +63,24 @@
   width: 100%;
   font-weight: bold;
 }
+@keyframes change-color {
+  0% {
+    color: rgb(33,175,178);
+  }
+  25% {
+    color: rgb(75,131,191);
+  }
+  50% {
+    color: rgb(212,82,121);
+  }
+  75% {
+    color: rgb(241,162,78);
+  }
+  100% {
+    color: rgb(242,99,99);
+  }
+}
+
 @media(min-width: 540px) {
   .SubscriptionPage_content_form_email {
     flex: 1;
