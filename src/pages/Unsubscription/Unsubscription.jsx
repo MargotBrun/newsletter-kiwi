@@ -1,6 +1,7 @@
 import React from 'react';
 import subscribe from './unsubscribeService';
 import './Unsubscription.css';
+import SubmitButton from '../../components/SubmitButton/SubmitButton';
 import kiwiImg from './kiwi.png';
 
 export default class UnsubscriptionPage extends React.Component {
@@ -64,13 +65,7 @@ export default class UnsubscriptionPage extends React.Component {
             name="email"
             placeholder="L'adresse email à désinscrire"
           />
-          <button
-            className="UnsubscriptionPage_content_form_submit"
-            type="submit"
-            disabled={isLoading}
-          >
-            Me désinscrire
-          </button>
+          <SubmitButton isLoading={isLoading}>Me désinscrire</SubmitButton>
         </form>
         {error ? <p className="UnsubscriptionPage_content_error">{error}</p> : null}
       </div>

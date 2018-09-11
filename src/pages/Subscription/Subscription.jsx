@@ -1,6 +1,7 @@
 import React from 'react';
 import subscribe from './subscribeService';
 import ShinyLink from '../../components/ShinyLink/ShinyLink';
+import SubmitButton from '../../components/SubmitButton/SubmitButton';
 import './Subscription.css';
 import kiwiImg from './kiwi.png';
 
@@ -67,13 +68,7 @@ export default class SubscriptionPage extends React.Component {
             name="email"
             placeholder="Votre adresse email"
           />
-          <button
-            className="SubscriptionPage_content_form_submit"
-            type="submit"
-            disabled={isLoading}
-          >
-            <p className="SubscriptionPage_content_form_submit_text"> Je m&apos;inscris</p>
-          </button>
+          <SubmitButton isLoading={isLoading}>Je m&apos;inscris</SubmitButton>
         </form>
         {error ? <p className="SubscriptionPage_content_error">{error}</p> : null}
       </div>
