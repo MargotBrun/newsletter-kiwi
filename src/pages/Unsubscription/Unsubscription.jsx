@@ -64,6 +64,7 @@ export default class UnsubscriptionPage extends React.Component {
             type="email"
             name="email"
             placeholder="L'adresse email à désinscrire"
+            required
           />
           <SubmitButton isLoading={isLoading}>Me désinscrire</SubmitButton>
         </form>
