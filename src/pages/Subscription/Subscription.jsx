@@ -95,7 +95,7 @@ export default class SubscriptionPage extends React.Component {
       <div className="SubscriptionPage">
         {this.renderContent()}
         <div className="SubscriptionPage_instagram">
-          <p>Vous voulez aussi en prendre plein la vue ?</p>
+          <p>Vous voulez aussi en prendre plein la vue&nbsp;?</p>
           <p>
             Suivez nous sur{' '}
             <ShinyLink href="https://www.instagram.com/djgomart/" target="_blank">

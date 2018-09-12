@@ -11,7 +11,7 @@ export default () => (
       <p className="ConfidentialityPage_content_intro">
         Vous êtes intéressé par ce qu’il advient de votre adresse email ? <br /> Voici un peu de
         lecture pour tenter de vous éclairer. N’hésitez-pas non plus à nous contacter pour toute
-        information :)
+        information&nbsp;:)
       </p>
       <h3 className="ConfidentialityPage_content_subsubtitle">
         Préambule et champ d&apos;application
