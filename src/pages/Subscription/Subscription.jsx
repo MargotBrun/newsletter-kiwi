@@ -49,13 +49,15 @@ export default class SubscriptionPage extends React.Component {
           - La newsletter de Margot &amp; Paulin -
         </h2>
         <p className="SubscriptionPage_content_phrase">
-          Tout au long de notre voyage recevez un email par mois pour&nbsp;:
+          Cinq bonnes raisons de vous inscrire et recevoir un email par mois&nbsp; :
         </p>
         <ul className="SubscriptionPage_content_list">
           <li>rester au fait de nos dernières péripéties&nbsp;;</li>
-          <li>découvrir la photo du mois&nbsp;;</li>
           <li>profiter de découvertes musicales, littéraires, culinaires, etc.&nbsp;;</li>
-          <li>en apprendre plus sur la Nouvelle-Zélande.</li>
+          <li>en apprendre plus sur la Nouvelle-Zélande&nbsp;;</li>
+          <li>
+            pour une fois, recevoir une newsletter à laquelle vous vous êtes vraiment inscrit.
+          </li>
         </ul>
         <form className="SubscriptionPage_content_form" onSubmit={this.handleSubmit}>
           <input type="hidden" name="js_id" id="js_id" value="349gf" />
