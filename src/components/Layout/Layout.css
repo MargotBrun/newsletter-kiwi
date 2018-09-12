@@ -13,6 +13,11 @@
   padding-bottom: 120px;
   box-sizing: border-box;
 }
+@media(max-width: 440px) {
+  .Layout {
+    padding-bottom: 90px;
+  }
+}
 @keyframes change-background-color {
   0% {
     background-color: rgb(33,175,178);

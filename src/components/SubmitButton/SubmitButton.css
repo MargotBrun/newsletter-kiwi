@@ -11,6 +11,14 @@
 .SubmitButton:hover {
   background-color: rgba(255,255,255,0.1);
 }
+@media(max-width: 540px) {
+  .SubmitButton {
+    position: static;
+    top: auto;
+    right: auto;
+    width: 100%;
+}
+}
 
 .SubmitButton_text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

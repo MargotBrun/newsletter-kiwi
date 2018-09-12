@@ -80,12 +80,19 @@
     color: rgb(242,99,99);
   }
 }
-
 @media(min-width: 540px) {
   .SubscriptionPage_content_form_email {
     flex: 1;
     margin-right: 5%;
   }
+}
+
+@media(max-width: 540px) {
+  .SubscriptionPage_content_form_email {
+     min-height: 22px;
+     margin-bottom: 10px;
+     text-align: center;
+}
 }
 
 .SubscriptionPage_content_error {
@@ -99,6 +106,11 @@
   text-align: center;
   margin-top: 30px;
   line-height: 22px;
+}
+@media(max-width: 440px) {
+  .SubscriptionPage_instagram {
+    padding-bottom: 90px;
+  }
 }
 
 .SubscriptionPage_content_success {
