@@ -55,7 +55,9 @@ export default class SubscriptionPage extends React.Component {
           <li>restez au fait de nos dernières péripéties&nbsp;;</li>
           <li>profitez de découvertes musicales, littéraires, culinaires, etc.&nbsp;;</li>
           <li>blindez vos connaissances sur la Nouvelle-Zélande&nbsp;;</li>
-          <li>pour une fois, recevez une newsletter à laquelle vous vous êtes vraiment inscrit.</li>
+          <li>
+            pour une fois, recevez une newsletter à laquelle vous vous êtes vraiment inscrit ;)
+          </li>
         </ul>
         <form className="SubscriptionPage_content_form" onSubmit={this.handleSubmit}>
           <input type="hidden" name="js_id" id="js_id" value="349gf" />

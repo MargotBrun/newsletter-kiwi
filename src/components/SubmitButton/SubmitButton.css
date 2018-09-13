@@ -13,9 +13,6 @@
 }
 @media(max-width: 540px) {
   .SubmitButton {
-    position: static;
-    top: auto;
-    right: auto;
     width: 100%;
 }
 }
