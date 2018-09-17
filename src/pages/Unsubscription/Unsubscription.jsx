@@ -2,7 +2,7 @@ import React from 'react';
 import subscribe from './unsubscribeService';
 import './Unsubscription.css';
 import SubmitButton from '../../components/SubmitButton/SubmitButton';
-import kiwiImg from './kiwi.png';
+import kiwiDesinscriptionImg from './kiwiDesinscription.png';
 
 export default class UnsubscriptionPage extends React.Component {
   constructor(props) {
@@ -53,7 +53,11 @@ export default class UnsubscriptionPage extends React.Component {
           <br /> mais qui sait peut-être que nous nous reverrons&nbsp;!
         </p>
         <p className="UnsubscriptionPage_content_success_kiwi">
-          <img src={kiwiImg} alt="Kiwi content" />
+          <img
+            className="UnsubscriptionPage_content_success_kiwi_image"
+            src={kiwiDesinscriptionImg}
+            alt="Kiwi triste"
+          />
         </p>
         <form className="UnsubscriptionPage_content_form" onSubmit={this.handleSubmit}>
           <input type="hidden" name="js_id" id="js_id" value="349gf" />
@@ -82,7 +86,11 @@ export default class UnsubscriptionPage extends React.Component {
           Vous ne recevrez plus d&apos;emails de notre part.
         </p>
         <p className="UnsubscriptionPage_content_success_kiwi">
-          <img src={kiwiImg} alt="Kiwi content" />
+          <img
+            className="UnsubscriptionPage_content_success_kiwi_image"
+            src={kiwiDesinscriptionImg}
+            alt="Kiwi triste"
+          />
         </p>
       </div>
     </div>
