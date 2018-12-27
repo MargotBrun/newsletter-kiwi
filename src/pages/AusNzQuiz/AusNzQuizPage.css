@@ -1,0 +1,41 @@
+.AusNzQuizPage {
+  width: 560px;
+  max-width: 96%;
+  min-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #555555;
+}
+
+.AusNzQuizPage_title {
+  font-size: 2em;
+  font-family: Domine, Verdana, Tahoma, Geneva, serif;
+}
+.AusNzQuizPage_subtitle {
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.AusNzQuizPage_separator {
+  margin: 70px auto 40px;
+  width: 50%;
+}
+
+.AusNzQuizPage_thanks {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: Domine, Verdana, Tahoma, Geneva, serif;
+}
+
+.AusNzQuizPage_footer {
+  font-size: 0.9em;
+  margin-top: 20px;
+  text-align: center;
+}
+.AusNzQuizPage_footer_van {
+  display: block;
+  margin-top: 30px;
+  max-width: 100%;
+}

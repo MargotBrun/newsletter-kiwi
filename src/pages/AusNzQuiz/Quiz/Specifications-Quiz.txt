@@ -1,0 +1,94 @@
+Pour commencer : 
+Merci choupi de développer ce super Quiz ! 
+Tout ce qui est (entre parenthèses) sont des indications pour toi et ne sont pas à mettre sur la page html. 
+Je suis là pour répondre à n'importe qu'elle question <3 
+
+(Principe général de la page :)
+
+(h1) Nouvelle-Zélande ou Australie, le Quiz !
+(h2) Essayez de deviner dans quel pays les photos suivantes ont été prises. Attention, il y a des pièges ;) 
+
+(Photo X) 
+
+(les choix - Toujours dans cet ordre, l'un sous l'autre - une seule réponse possible.) 
+Australie
+Nouvelle-Zélande  
+(Dès que l'utilisateur clique, la réponse apparaît sous la réponse, ou sous les choix -le plus simple pour toi-)
+
+
+-------------------
+
+(Photo 1 : plage-fraserIsland.jpg) La plage
+
+Australie : Bonne réponse ! Voici une des nombreuses plages de Fraser Island, la plus grande île de sable au monde au large de la côte est.
+Nouvelle-Zélande : Perdu ! Voici une des nombreuses plages de Fraser Island, la plus grande île de sable au monde au large de la côte est Australienne.
+
+------
+
+(Photo 2 : goatisland.jpg) L'île
+Australie : Perdu, c'est Goat Island (l'île de la chèvre) en Nouvelle-Zélande.
+Nouvelle-Zélande : Bien joué ! Vous avez reconnu Goat Island (l'île de la chèvre) en Nouvelle-Zélande. Bêêêê !
+
+------
+
+(Photo 3 : south-sydney.jpg) La vue
+
+Australie : Bravo, vous admirez les plaines au Sud de Sydney en Australie.
+Nouvelle-Zélande : Et non ! La Nouvelle-Zélande n'est pas si plate ! Vous admirez les plaines au Sud de Sydney en Australie.
+
+------
+
+(Photo 4 : dorrigo-rainforestnationalpark.jpg) La vue (bis)
+
+Australie : Qui a dit qu'il ne pleuvait jamais en Australie ? Bienvenue au Dorrigo Rainforest National Park. Ces "rainforest" ou "forêts tropicales" sont très présentes sur la côte est Australienne et en Nouvelle-Zélande.
+Nouvelle-Zélande : On vous avait prévenus, il y a des pièges ! Bienvenue au Dorrigo Rainforest National Park. Ces "rainforest" ou "forêts tropicales" sont très présentes sur la côte est Australienne et en Nouvelle-Zélande.
+
+------
+
+(Photo 5 : TeHanga-Goldie-Bushwalk.jpg) La plage (bis)
+
+Australie : Pouin pouin pouin, cette eau turquoise a été vue depuis la Nouvelle-Zélande, lors de la marche côtière "Te Henga".
+Nouvelle-Zélande : Bien vu ! L'eau peut aussi être turquoise et paradisiaque en Nouvelle-Zélande, surtout sous ce beau soleil le long du littoral "Te Henga".
+
+
+------
+
+(Photo 6 : GrandCanyon-BlueMountains.jpeg) La forêt & l'aventurier
+
+Australie : Encore ? C'est l'jeu ma pauvre Lucette... Il n'est pas beau notre aventurier au coeur de la rainforest du parc national des Blues Mountains ?
+Nouvelle-Zélande : Perdu ! L'intrepide Paulin se trouve au coeur de la rainforest du parc national des Blues Mountains en Australie.
+
+------
+
+(Photo 7 : platypus-eungellanationalpark.jpg) L'animal
+
+Australie : Des connaisseurs de l'ornitorinque (ou platypus en anglais) ? Bravo en tout cas, celui-là barbotait dans une rivière du Parc National Eunguella et on en trouve que dans ce pays.
+Nouvelle-Zélande : Perdu ! Dites "Bonjour" à l'ornitorinque (ou platypus en anglais) qui barbotait dans une rivière du Parc National Eunguella en Australie.On en trouve que dans ce pays !
+
+
+------
+
+(Photo 8 : vegetation-whangareifalls.jpg) La forêt (bis)
+
+Australie : Pas facile hein ? Cette rainforest se trouve en Nouvelle-Zélande, du côté de chuttes Whangarei.
+Nouvelle-Zélande : Bien vu :) Cette rainforest se trouve du côté de chuttes Whangarei. 
+
+
+------
+
+(Photo 9 : Pinnacles.jpg )
+
+Australie : Ben  alors ? Vous n'avez pas reconnu les "Pinnacles" (pics) dans la région de Corromandel en Nouvelle-Zélande ? 
+Nouvelle-Zélande : Yeahhh ! Vous avez bien reconnu les "Pinnacles" (pics) dans la région de Corromandel. Bravo !
+
+
+------
+
+(Photo 10 : GrandCanyon-Lookout-Bleumountains.jpg)
+
+Australie : Une chance sur deux et... c'est gagné ! Nous sommes au sommet du Grand Canyon, dans le parc de Blues Mountains atteint après 2 heures de marche. Nous étions censés découvrir une vue superbe sur le canyon...
+Nouvelle-Zélande : Ok c'était impossible. Nous sommes au sommet du Grand Canyon, dans le parc de Blues Mountains en Australie atteint après 2 heures de marche. Nous étions censés découvrir une vue superbe sur le canyon...
+
+
+
+

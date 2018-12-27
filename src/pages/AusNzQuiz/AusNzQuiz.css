@@ -1,0 +1,33 @@
+.AusNzQuiz_question {
+  margin: 20px 0 40px;
+}
+
+.AusNzQuiz_question_title {
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
+.AusNzQuiz_question_image {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.AusNzQuiz_question_choices_choice {
+  display: block;
+  margin: 10px 0;
+}
+.AusNzQuiz_question_choices_choice input {
+  position: relative;
+  bottom: 2px;
+  margin-right: 5px;
+}
+
+.AusNzQuiz_question_answer {
+ margin: 20px 0; 
+}
+.AusNzQuiz_question_answer.-correct {
+  color: green;
+}
+.AusNzQuiz_question_answer.-incorrect {
+  color: red;
+}
