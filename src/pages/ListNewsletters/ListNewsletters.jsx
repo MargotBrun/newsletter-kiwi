@@ -23,7 +23,11 @@ export default () => (
     <div className="ListNewsletters_content_cards">
       <div className="card-deck">
         <div className="card">
-          <a href="http://sh1.sendinblue.com/nc4glolx4c.html?t=1560470731" target="_blank">
+          <a
+            href="http://sh1.sendinblue.com/nc4glolx4c.html?t=1560470731"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={HeaderOctobrePicture} className="card-img-top" alt="L'île aux trésors" />
           </a>
           <div className="card-body">
@@ -38,6 +42,7 @@ export default () => (
             <ShinyLink
               href="http://sh1.sendinblue.com/nc4glolx4c.html?t=1560470731"
               target="_blank"
+              rel="noopener noreferrer"
               multicolor
             >
               <small>Lire la newsletter d'octobre (2018)</small>
@@ -45,7 +50,11 @@ export default () => (
           </div>
         </div>
         <div className="card">
-          <a href="http://sh1.sendinblue.com/ncwwlolx4c.html?t=1560470731" target="_blank">
+          <a
+            href="http://sh1.sendinblue.com/ncwwlolx4c.html?t=1560470731"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={HeaderNovemberPicture} className="card-img-top" alt="L'île aux trésors" />
           </a>
           <div className="card-body">
@@ -61,6 +70,7 @@ export default () => (
             <ShinyLink
               href="http://sh1.sendinblue.com/ncwwlolx4c.html?t=1560470731"
               target="_blank"
+              rel="noopener noreferrer"
               multicolor
             >
               <small>Lire la newsletter de novembre (2018)</small>
@@ -68,7 +78,11 @@ export default () => (
           </div>
         </div>
         <div className="card">
-          <a href="http://sh1.sendinblue.com/nd6dxolx4c.html?t=1560470731" target="_blank">
+          <a
+            href="http://sh1.sendinblue.com/nd6dxolx4c.html?t=1560470731"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={HeaderDecembrePicture} className="card-img-top" alt="L'île aux trésors" />
           </a>
           <div className="card-body">
@@ -84,6 +98,7 @@ export default () => (
             <ShinyLink
               href="http://sh1.sendinblue.com/nd6dxolx4c.html?t=1560470731"
               target="_blank"
+              rel="noopener noreferrer"
               multicolor
             >
               <small>Lire la newsletter de décembre (2018)</small>
@@ -93,7 +108,11 @@ export default () => (
       </div>
       <div className="card-deck">
         <div className="card">
-          <a href="http://sh1.sendinblue.com/ndfv9olx4c.html?t=1560470731" target="_blank">
+          <a
+            href="http://sh1.sendinblue.com/ndfv9olx4c.html?t=1560470731"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={HeaderJanvierPicture} className="card-img-top" alt="L'île aux trésors" />
           </a>
           <div className="card-body">
@@ -108,6 +127,7 @@ export default () => (
             <ShinyLink
               href="http://sh1.sendinblue.com/ndfv9olx4c.html?t=1560470731"
               target="_blank"
+              rel="noopener noreferrer"
               multicolor
             >
               <small>Lire la newsletter de janvier</small>
@@ -115,7 +135,11 @@ export default () => (
           </div>
         </div>
         <div className="card">
-          <a href="http://sh1.sendinblue.com/ndpclolx4c.html?t=1560470731" target="_blank">
+          <a
+            href="http://sh1.sendinblue.com/ndpclolx4c.html?t=1560470731"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={HeaderFevPicture} className="card-img-top" alt="L'île aux trésors" />
           </a>
           <div className="card-body">
@@ -129,6 +153,7 @@ export default () => (
             <ShinyLink
               href="http://sh1.sendinblue.com/ndpclolx4c.html?t=1560470731"
               target="_blank"
+              rel="noopener noreferrer"
               multicolor
             >
               <small>Lire la newsletter de février</small>
@@ -136,7 +161,11 @@ export default () => (
           </div>
         </div>
         <div className="card">
-          <a href="http://sh1.sendinblue.com/ne8b9olx4c.html?t=1560470731" target="_blank">
+          <a
+            href="http://sh1.sendinblue.com/ne8b9olx4c.html?t=1560470731"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={HeaderMarchPicture} className="card-img-top" alt="L'île aux trésors" />
           </a>
           <div className="card-body">
@@ -150,6 +179,7 @@ export default () => (
             <ShinyLink
               href="http://sh1.sendinblue.com/ne8b9olx4c.html?t=1560470731"
               target="_blank"
+              rel="noopener noreferrer"
               multicolor
             >
               <small>Lire la newsletter de mars</small>
@@ -159,7 +189,11 @@ export default () => (
       </div>
       <div className="card-deck">
         <div className="card">
-          <a href="http://sh1.sendinblue.com/nehslolx4c.html?t=1560470731" target="_blank">
+          <a
+            href="http://sh1.sendinblue.com/nehslolx4c.html?t=1560470731"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={HeaderAvrilPicture} className="card-img-top" alt="L'île aux trésors" />
           </a>
           <div className="card-body">
@@ -174,6 +208,7 @@ export default () => (
             <ShinyLink
               href="http://sh1.sendinblue.com/nehslolx4c.html?t=1560470731"
               target="_blank"
+              rel="noopener noreferrer"
               multicolor
             >
               <small>Lire la newsletter d'avril</small>
@@ -181,7 +216,11 @@ export default () => (
           </div>
         </div>
         <div className="card">
-          <a href="http://sh1.sendinblue.com/ner9xolx4c.html?t=1560470731" target="_blank">
+          <a
+            href="http://sh1.sendinblue.com/ner9xolx4c.html?t=1560470731"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={HeaderMaiPicture} className="card-img-top" alt="L'île aux trésors" />
           </a>
           <div className="card-body">
@@ -196,6 +235,7 @@ export default () => (
             <ShinyLink
               href="http://sh1.sendinblue.com/ner9xolx4c.html?t=1560470731"
               target="_blank"
+              rel="noopener noreferrer"
               multicolor
             >
               <small>Lire la newsletter de mai</small>
@@ -212,7 +252,12 @@ export default () => (
             </p>
           </div>
           <div className="card-footer">
-            <ShinyLink to="https://www.instagram.com/djgomart/" target="_blank" multicolor>
+            <ShinyLink
+              to="https://www.instagram.com/djgomart/"
+              target="_blank"
+              rel="noopener noreferrer"
+              multicolor
+            >
               <small>Tout, vous saurez tout sur nos Kiwis</small>
             </ShinyLink>
           </div>
