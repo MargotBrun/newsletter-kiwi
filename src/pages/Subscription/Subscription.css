@@ -8,6 +8,16 @@
 
 .SubscriptionPage_content {
   min-height: 345px;
+  position: relative;
+}
+
+.SubscriptionPage_content_sidelinks {
+ position: absolute;
+ right: -250px;
+}
+
+.SubscriptionPage_content_sidelinks img {
+margin-left: 10px;
 }
 
 .SubscriptionPage_content_title {

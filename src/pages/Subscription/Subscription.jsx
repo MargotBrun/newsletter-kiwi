@@ -4,6 +4,8 @@ import ShinyLink from '../../components/ShinyLink/ShinyLink';
 import SubmitButton from '../../components/SubmitButton/SubmitButton';
 import './Subscription.css';
 import kiwiImg from './kiwi.png';
+import EnveloppeImg from './icone-enveloppe.png';
+import InstagramImg from './icone-instagram.png';
 
 export default class SubscriptionPage extends React.Component {
   constructor(props) {
@@ -44,6 +46,10 @@ export default class SubscriptionPage extends React.Component {
     const { error, isLoading } = this.state;
     return (
       <div className="SubscriptionPage_content">
+        <div className="SubscriptionPage_content_sidelinks">
+          <img src={EnveloppeImg} alt="enveloppe" />
+          <img src={InstagramImg} alt="instagram" />
+        </div>
         <h1 className="SubscriptionPage_content_title">Ce mois-ci au pays des Kiwis&nbsp;!</h1>
         <h2 className="SubscriptionPage_content_subtitle">
           - La newsletter de Margot &amp; Paulin -
