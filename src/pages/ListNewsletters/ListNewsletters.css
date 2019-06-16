@@ -42,9 +42,7 @@ text-decoration: unset;
 
 .card {
 border: none !important;
-border-radius: none !important;
-border-top-left-radius: none !important;
-border-top-right-radius: none !important;
+border-radius: unset;
 }
 
 .card-deck .card {
@@ -52,8 +50,7 @@ border-top-right-radius: none !important;
 }
 
 .card-img-top {
-border-top-left-radius: none !important;
-border-top-right-radius: none !important;
+border-radius: unset;
 }
 
 .card-title {
