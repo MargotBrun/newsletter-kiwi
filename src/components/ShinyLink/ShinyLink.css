@@ -19,3 +19,8 @@
   transform: scaleX(1);
   opacity: 1;
 }
+
+.ShinyLink.-multicolor::after {
+  animation: change-background-color 28s infinite;
+  animation-direction: alternate;
+}

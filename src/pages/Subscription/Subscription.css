@@ -8,6 +8,43 @@
 
 .SubscriptionPage_content {
   min-height: 345px;
+  position: relative;
+}
+
+.SubscriptionPage_content_sidelinks {
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media(min-width: 1150px) {
+  .SubscriptionPage_content_sidelinks {
+    position: absolute;
+    right: -250px;
+  }
+}
+
+.SubscriptionPage_content_sidelinks img {
+margin-left: 10px;
+}
+
+.SubscriptionPage_content_sidelinks_enveloppe {
+  position: relative;
+}
+
+.SubscriptionPage_content_sidelinks_enveloppe_number {
+  position: absolute;
+  background-color: white;
+  animation: change-color 28s infinite;
+  animation-direction: alternate;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 20px;
+  right: -3px;
+  top: -14px;
 }
 
 .SubscriptionPage_content_title {
@@ -78,6 +115,23 @@
   }
   100% {
     color: rgb(242,99,99);
+  }
+}
+@keyframes change-background-color {
+  0% {
+    background-color: rgb(33,175,178);
+  }
+  25% {
+    background-color: rgb(75,131,191);
+  }
+  50% {
+    background-color: rgb(212,82,121);
+  }
+  75% {
+    background-color: rgb(241,162,78);
+  }
+  100% {
+    background-color: rgb(242,99,99);
   }
 }
 @media(min-width: 540px) {
