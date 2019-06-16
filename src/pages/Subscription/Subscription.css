@@ -12,8 +12,14 @@
 }
 
 .SubscriptionPage_content_sidelinks {
- position: absolute;
- right: -250px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media(min-width: 1150px) {
+  .SubscriptionPage_content_sidelinks {
+    position: absolute;
+    right: -250px;
+  }
 }
 
 .SubscriptionPage_content_sidelinks img {
