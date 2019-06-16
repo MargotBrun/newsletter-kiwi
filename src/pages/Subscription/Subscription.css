@@ -80,6 +80,23 @@
     color: rgb(242,99,99);
   }
 }
+@keyframes change-background-color {
+  0% {
+    background-color: rgb(33,175,178);
+  }
+  25% {
+    background-color: rgb(75,131,191);
+  }
+  50% {
+    background-color: rgb(212,82,121);
+  }
+  75% {
+    background-color: rgb(241,162,78);
+  }
+  100% {
+    background-color: rgb(242,99,99);
+  }
+}
 @media(min-width: 540px) {
   .SubscriptionPage_content_form_email {
     flex: 1;

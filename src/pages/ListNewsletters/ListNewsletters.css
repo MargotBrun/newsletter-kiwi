@@ -35,8 +35,25 @@
   box-sizing: border-box;
 }
 
+a:hover{
+color: unset;
+text-decoration: unset;
+}
+
+.card {
+border: none !important;
+border-radius: none !important;
+border-top-left-radius: none !important;
+border-top-right-radius: none !important;
+}
+
 .card-deck .card {
   margin-bottom: 30px;
+}
+
+.card-img-top {
+border-top-left-radius: none !important;
+border-top-right-radius: none !important;
 }
 
 .card-title {
@@ -47,7 +64,8 @@
 }
 
 .card-text {
-  font-size: 14px;
+  font-size: 16px;
+  font-family: Open Sans, Verdana, Tahoma, Geneva, serif;
   animation: change-color 28s infinite;
   animation-direction: alternate;
 }
@@ -57,10 +75,12 @@
   background-color: white;
   animation: change-color 28s infinite;
   animation-direction: alternate;
+  border-radius: none !important;
 }
 
-.text-mute {
-  text-decoration: underline;
+.small {
+  font-size: 14px;
+  font-family: Domine, Verdana, Tahoma, Geneva, serif;
 }
 
 .ListNewsletters_content_interest {
