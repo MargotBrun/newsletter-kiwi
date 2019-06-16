@@ -20,6 +20,27 @@
 margin-left: 10px;
 }
 
+.SubscriptionPage_content_sidelinks_enveloppe {
+  position: relative;
+}
+
+.SubscriptionPage_content_sidelinks_enveloppe_number {
+  position: absolute;
+  background-color: white;
+  animation: change-color 28s infinite;
+  animation-direction: alternate;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 20px;
+  right: -3px;
+  top: -14px;
+}
+
 .SubscriptionPage_content_title {
   font-weight: 700;
   text-align: center;

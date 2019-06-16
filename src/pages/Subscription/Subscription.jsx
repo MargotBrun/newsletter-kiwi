@@ -47,7 +47,10 @@ export default class SubscriptionPage extends React.Component {
     return (
       <div className="SubscriptionPage_content">
         <div className="SubscriptionPage_content_sidelinks">
-          <img src={EnveloppeImg} alt="enveloppe" />
+          <span className="SubscriptionPage_content_sidelinks_enveloppe">
+            <img src={EnveloppeImg} alt="enveloppe" />
+            <span className="SubscriptionPage_content_sidelinks_enveloppe_number">7</span>
+          </span>
           <img src={InstagramImg} alt="instagram" />
         </div>
         <h1 className="SubscriptionPage_content_title">Ce mois-ci au pays des Kiwis&nbsp;!</h1>
