@@ -49,7 +49,7 @@ export default class SubscriptionPage extends React.Component {
         <div className="SubscriptionPage_content_sidelinks">
           <a href="/liste" className="SubscriptionPage_content_sidelinks_enveloppe">
             <img src={EnveloppeImg} alt="enveloppe" />
-            <span className="SubscriptionPage_content_sidelinks_enveloppe_number">7</span>
+            <span className="SubscriptionPage_content_sidelinks_enveloppe_number">8</span>
           </a>
           <a href="https://www.instagram.com/djgomart/" target="_blank" rel="noopener noreferrer">
             <img src={InstagramImg} alt="instagram" />

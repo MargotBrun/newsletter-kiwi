@@ -9,7 +9,7 @@ import HeaderFevPicture from './pictures/Header-Fev.jpg';
 import HeaderMarchPicture from './pictures/Header-March.jpg';
 import HeaderAvrilPicture from './pictures/Header-Avril.jpg';
 import HeaderMaiPicture from './pictures/Header-Mai.jpg';
-import HeaderKiwiPicture from './pictures/Header-Kiwi.jpg';
+import HeaderJuinPicture from './pictures/Header-Juin.jpg';
 
 export default () => (
   <div className="ListNewsletters_content">
@@ -28,7 +28,11 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={HeaderOctobrePicture} className="card-img-top" alt="L'île aux trésors" />
+            <img
+              src={HeaderOctobrePicture}
+              className="card-img-top"
+              alt="Auckland, quartier de Ponsonby"
+            />
           </a>
           <div className="card-body">
             <h5 className="card-title">Auckland, quartier de Ponsonby</h5>
@@ -55,7 +59,11 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={HeaderNovemberPicture} className="card-img-top" alt="L'île aux trésors" />
+            <img
+              src={HeaderNovemberPicture}
+              className="card-img-top"
+              alt="L'île du nord, des plages aux volcans"
+            />
           </a>
           <div className="card-body">
             <h5 className="card-title">L'île du nord, des plages aux volcans &nbsp;!</h5>
@@ -83,7 +91,11 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={HeaderDecembrePicture} className="card-img-top" alt="L'île aux trésors" />
+            <img
+              src={HeaderDecembrePicture}
+              className="card-img-top"
+              alt="De Sydney à Cairns (ou pas), la côte est australienne"
+            />
           </a>
           <div className="card-body">
             <h5 className="card-title">De Sydney à Cairns (ou pas), la côte est australienne</h5>
@@ -113,7 +125,11 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={HeaderJanvierPicture} className="card-img-top" alt="L'île aux trésors" />
+            <img
+              src={HeaderJanvierPicture}
+              className="card-img-top"
+              alt="Queenstown, la Reine des montagnes"
+            />
           </a>
           <div className="card-body">
             <h5 className="card-title">Queenstown, la Reine des montagnes ⛰️⛰️</h5>
@@ -140,7 +156,11 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={HeaderFevPicture} className="card-img-top" alt="L'île aux trésors" />
+            <img
+              src={HeaderFevPicture}
+              className="card-img-top"
+              alt="C’est la fin de l’été dans les montagnes"
+            />
           </a>
           <div className="card-body">
             <h5 className="card-title">C’est la fin de l’été dans les montagnes</h5>
@@ -166,7 +186,7 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={HeaderMarchPicture} className="card-img-top" alt="L'île aux trésors" />
+            <img src={HeaderMarchPicture} className="card-img-top" alt="Kia Kaha New Zealand" />
           </a>
           <div className="card-body">
             <h5 className="card-title">Kia Kaha New Zealand</h5>
@@ -194,7 +214,11 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={HeaderAvrilPicture} className="card-img-top" alt="L'île aux trésors" />
+            <img
+              src={HeaderAvrilPicture}
+              className="card-img-top"
+              alt="Good bye Queenstown, Hello South Island"
+            />
           </a>
           <div className="card-body">
             <h5 className="card-title">Good bye Queenstown, Hello South Island&nbsp;!</h5>
@@ -217,7 +241,7 @@ export default () => (
         </div>
         <div className="card">
           <a
-            href="http://sh1.sendinblue.com/ner9xolx4c.html?t=1560470731"
+            href="http://sh1.sendinblue.com/ner9xolx4c.html?t=1561074838"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -227,13 +251,12 @@ export default () => (
             <h5 className="card-title">L'île aux trésors</h5>
             <p className="card-text">
               Merveilleuse île du Sud et ses paysages à couper le souffle : la nature sous toutes
-              ses coutures. Puis cours de taille à Hirotika, découvrez la jade de Nouvelle-Zélande,
-              la Pounamu !
+              ses coutures. Découvrez ensuite la jade de Nouvelle-Zélande, la Pounamu !
             </p>
           </div>
           <div className="card-footer">
             <ShinyLink
-              href="http://sh1.sendinblue.com/ner9xolx4c.html?t=1560470731"
+              href="http://sh1.sendinblue.com/ner9xolx4c.html?t=1561074838"
               target="_blank"
               rel="noopener noreferrer"
               multicolor
@@ -243,22 +266,29 @@ export default () => (
           </div>
         </div>
         <div className="card">
-          <img src={HeaderKiwiPicture} className="card-img-top" alt="L'île aux trésors" />
+          <a
+            href="http://sh1.sendinblue.com/ng2ololx4c.html?t=1561696899"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={HeaderJuinPicture} className="card-img-top" alt="L'île aux Windy Welli" />
+          </a>
           <div className="card-body">
-            <h5 className="card-title">(Re)Découvrez nos Kiwis</h5>
+            <h5 className="card-title">Windy Welli</h5>
             <p className="card-text">
-              Envie d'avoir un aperçu de la vie en Nouvelle-Zélande sans lire toutes nos newsletters
-              (on vous comprend), vous pouvez simplement revoir nos petits dessins de Kiwis ici !
+              Ce mois-ci retour à la vie citadine dans la capitale Wellington ! On fête aussi le
+              nouvel an Māori, le Matariki et on vous apprend ce qu'est le "zorbing" en
+              Nouvelle-Zélande.
             </p>
           </div>
           <div className="card-footer">
             <ShinyLink
-              to="https://www.instagram.com/djgomart/"
+              href="http://sh1.sendinblue.com/ng2ololx4c.html?t=1561696899"
               target="_blank"
               rel="noopener noreferrer"
               multicolor
             >
-              <small>Tout, vous saurez tout sur nos Kiwis</small>
+              <small>Lire la newsletter de juin</small>
             </ShinyLink>
           </div>
         </div>
