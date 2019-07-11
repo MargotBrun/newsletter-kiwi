@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import SubscriptionPage from './pages/Subscription/Subscription';
@@ -7,6 +8,8 @@ import ConfidentialityPage from './pages/Confidentiality/Confidentiality';
 import AusNzQuizPage from './pages/AusNzQuiz/AusNzQuizPage';
 import ListNewsletters from './pages/ListNewsletters/ListNewsletters';
 import PicturesNewsletters from './pages/PicturesNewsletters/PicturesNewsletters';
+
+ReactGA.initialize('UA-143186341-1');
 
 export default () => (
   <Router>
