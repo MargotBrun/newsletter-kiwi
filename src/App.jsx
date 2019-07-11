@@ -10,9 +10,10 @@ import ListNewsletters from './pages/ListNewsletters/ListNewsletters';
 import PicturesNewsletters from './pages/PicturesNewsletters/PicturesNewsletters';
 
 export default class App extends React.Component {
-  componentDidMount = () => {
+  constructor(props) {
+    super(props);
     ReactGA.initialize('UA-143186341-1');
-  };
+  }
 
   render = () => (
     <Router>
