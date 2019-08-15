@@ -1,6 +1,7 @@
 import React from 'react';
 import ShinyLink from '../ShinyLink/ShinyLink';
 import './Layout.css';
+import './cards.css';
 
 export default ({ children }) => (
   <div className="Layout">

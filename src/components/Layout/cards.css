@@ -1,0 +1,39 @@
+
+a:hover{
+  color: unset;
+  text-decoration: unset;
+}
+
+.card {
+  border: none !important;
+  border-radius: unset;
+  animation: change-color 28s infinite;
+  animation-direction: alternate;
+}
+
+.card-deck .card {
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  border-radius: unset;
+}
+
+.card-title {
+  font-family: Domine, Verdana, Tahoma, Geneva, serif;
+  font-size: 20px;
+}
+
+.card-footer {
+  background-color: white;
+  border-radius: none !important;
+}
+
+.card-hidden {
+  visibility: hidden;
+}
+@media(max-width: 540px) {
+  .card-hidden {
+    display: none;
+  }
+}

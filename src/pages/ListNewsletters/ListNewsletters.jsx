@@ -13,7 +13,7 @@ import HeaderMaiPicture from './pictures/Header-Mai.jpg';
 import HeaderJuinPicture from './pictures/Header-Juin.jpg';
 
 export default () => (
-  <Page title="Toutes nos newsletters !">
+  <Page className="ListNewsletters" title="Toutes nos newsletters !">
     <div className="ListNewsletters_content_header">
       <p className="ListNewsletters_content_header_phrase">
         Depuis quelques mois nous parcourons la Nouvelle-Zélande (et un peu l'Australie).

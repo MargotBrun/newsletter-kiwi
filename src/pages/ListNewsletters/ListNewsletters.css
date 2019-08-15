@@ -33,58 +33,13 @@
   box-sizing: border-box;
 }
 
-a:hover{
-  color: unset;
-  text-decoration: unset;
-}
-
-.card {
-  border: none !important;
-  border-radius: unset;
-}
-
-.card-deck .card {
-  margin-bottom: 30px;
-}
-
-.card-img-top {
-  border-radius: unset;
-}
-
-.card-title {
-  font-family: Domine, Verdana, Tahoma, Geneva, serif;
-  font-size: 20px;
-  animation: change-color 28s infinite;
-  animation-direction: alternate;
-}
-
-.card-text {
+.ListNewsletters .card-text {
   font-size: 16px;
   font-family: Open Sans, Verdana, Tahoma, Geneva, serif;
-  animation: change-color 28s infinite;
-  animation-direction: alternate;
 }
 
-.card-footer {
+.ListNewsletters .card-footer {
   font-family: Domine, Verdana, Tahoma, Geneva, serif;
-  background-color: white;
-  animation: change-color 28s infinite;
-  animation-direction: alternate;
-  border-radius: none !important;
-}
-
-.small {
-  font-size: 14px;
-  font-family: Domine, Verdana, Tahoma, Geneva, serif;
-}
-
-.card-hidden {
-  visibility: hidden;
-}
-@media(max-width: 540px) {
-  .card-hidden {
-    display: none;
-  }
 }
 
 .ListNewsletters_content_interest {
@@ -128,7 +83,7 @@ a:hover{
 @media(max-width: 540px) {
   .SubmitButton {
     width: 100%;
-}
+  }
 }
 
 .ListNewsletters_content_interest_InscriptionButton_text {
