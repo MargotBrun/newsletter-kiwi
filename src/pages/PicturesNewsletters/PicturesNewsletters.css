@@ -1,59 +1,36 @@
 .PicturesNewsletters {
-  max-width: 750px;
-  margin: auto;
-  color: #FFF;
-  padding: 50px 20px 20px;
-  box-sizing: border-box;
-}
-@media(max-width: 540px) {
-  .PicturesNewsletters {
-    margin-bottom: 90px;
-  }
+  max-width: 700px;
 }
 
-.PicturesNewsletters_content {
-  min-height: 345px;
-}
-
-.PicturesNewsletters_content_title {
-  font-weight: 700;
-  text-align: center;
-  font-size: 35px;
-  margin-bottom: 12px;
-  padding: 0px;
-  margin-top: 0px;
-  font-family: Domine, Verdana, Tahoma, Geneva, serif;
-}
-
-.PicturesNewsletters_content_kiwi {
+.PicturesNewsletters_kiwi {
   margin-top: 20px;
   text-align: center;
 }
 
-.PicturesNewsletters_content_kiwi_image {
+.PicturesNewsletters_kiwi_image {
   width: 100px;
 }
 
-.PicturesNewsletters_content_subtittle {
+.PicturesNewsletters_subtittle {
   font-size: 17px;
   text-align: center;
-  margin-top: 25px; 
+  margin-top: 25px;
   font-weight: bold;
 }
 
-.PicturesNewsletters_content_phrase {
-  font-size: 17px;
-  text-align: center;
-  margin-top: 10px; 
-}
-
-.PicturesNewsletters_content_phrase_email {
+.PicturesNewsletters_phrase {
   font-size: 17px;
   text-align: center;
   margin-top: 10px;
 }
 
-.PicturesNewsletters_content_success {
+.PicturesNewsletters_phrase_email {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.PicturesNewsletters_success {
   text-align: center;
   line-height: initial;
 }

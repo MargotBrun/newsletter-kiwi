@@ -1,5 +1,6 @@
 import React from 'react';
 import './ListNewsletters.css';
+import Page from '../../components/Page/Page';
 import ShinyLink from '../../components/ShinyLink/ShinyLink';
 import HeaderOctobrePicture from './pictures/Header-Octobre.jpg';
 import HeaderNovemberPicture from './pictures/Header-November.jpg';
@@ -12,9 +13,8 @@ import HeaderMaiPicture from './pictures/Header-Mai.jpg';
 import HeaderJuinPicture from './pictures/Header-Juin.jpg';
 
 export default () => (
-  <div className="ListNewsletters_content">
+  <Page title="Toutes nos newsletters !">
     <div className="ListNewsletters_content_header">
-      <h1 className="ListNewsletters_content_header_title">Toutes nos newsletters&nbsp;!</h1>
       <p className="ListNewsletters_content_header_phrase">
         Depuis quelques mois nous parcourons la Nouvelle-Zélande (et un peu l'Australie).
         <br /> Retrouvez toutes nos péripéties dans nos newsletters, mois par mois&nbsp;!
@@ -309,5 +309,5 @@ export default () => (
         </p>
       </a>
     </div>
-  </div>
+  </Page>
 );

@@ -1,0 +1,26 @@
+.Page {
+  max-width: 1200px;
+  margin: auto;
+  color: #FFF;
+  padding: 50px 20px 20px;
+  box-sizing: border-box;
+}
+@media(max-width: 540px) {
+  .Page {
+    margin-bottom: 90px;
+  }
+}
+
+.Page_content {
+  min-height: 345px;
+}
+
+.Page_title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 12px;
+  padding: 0px;
+  margin-top: 0px;
+  font-family: Domine, Verdana, Tahoma, Geneva, serif;
+}
