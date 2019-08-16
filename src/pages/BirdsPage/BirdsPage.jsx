@@ -33,16 +33,19 @@ export default class BirdsPage extends React.Component {
       <Page title="Kei Te Waiata Ngā Manu" className="BirdsPage">
         {isPopupOpen && (
           <button
-            className="BirdsPage_popup"
             type="button"
+            className="BirdsPage_popup"
             onClick={() => {
               this.setState({ isPopupOpen: false });
             }}
           >
+            <button className="BirdsPage_popup_close" type="button">
+              Retour à la liste
+            </button>
             <iframe
               className="BirdsPage_popup_iframe"
               title="bellbird"
-              src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1`}
+              src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&autoplay=1&loop=1&playlist&list=PLPl9HD9BbIJ-YJGPzIEW4bjk_eKO8Axu0`}
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -50,7 +53,8 @@ export default class BirdsPage extends React.Component {
           </button>
         )}
 
-        <h2 className="BirdsPage_subtitle">
+        <p className="BirdsPage_subtitle">Le Chant Des Oiseaux</p>
+        <h2 className="BirdsPage_catchphrase">
           Directement dans vos oreilles, le chant des oiseaux emblématiques de Nouvelle-Zélande
         </h2>
         <div className="BirdsPage_cards">

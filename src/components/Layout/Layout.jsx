@@ -14,7 +14,7 @@ export default ({ children }) => (
           <img src={homeIcon} alt="Accueil" title="Retour à l'accueil" />
         </a>
         <a href="/liste" className="Layout_nav_enveloppe">
-          <img src={EnveloppeIcon} alt="enveloppe" title="Lire les newsletter" />
+          <img src={EnveloppeIcon} alt="enveloppe" title="Lire les newsletters" />
           <span className="Layout_nav_enveloppe_number">8</span>
         </a>
         <a href="/oiseaux">
