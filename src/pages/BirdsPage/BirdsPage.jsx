@@ -51,7 +51,7 @@ export default class BirdsPage extends React.Component {
         )}
 
         <h2 className="BirdsPage_subtitle">Le chant des oiseaux de Nouvelle-Zélande</h2>
-        <div className="ListNewsletters_content_cards">
+        <div className="BirdsPage_cards">
           <div className="card-deck">
             <Tui handleOpenPopup={this.handleOpenPopup} />
             <Bellbird handleOpenPopup={this.handleOpenPopup} />
@@ -67,6 +67,17 @@ export default class BirdsPage extends React.Component {
             <Riroriro handleOpenPopup={this.handleOpenPopup} />
             <Hihi handleOpenPopup={this.handleOpenPopup} />
           </div>
+        </div>
+        <div className="BirdsPage_interest">
+          <h2 className="BirdsPage_interest_title">(Re)découvrez nos newsletters&nbsp;!</h2>
+          <p className="BirdsPage_interest_phrase">
+            <strong>100% Kiwi Made</strong>, <strong>0% Spam</strong>.<br /> Vous y trouverez des
+            nouvelles de notre périple, de la culture Néo-Zélandaise, un peu d'histoire et beaucoup
+            de photos&nbsp;!
+          </p>
+          <a className="BirdsPage_interest_InscriptionButton" href="/liste">
+            <p className="BirdsPage_interest_InscriptionButton_text">Voir les newsletters</p>
+          </a>
         </div>
       </Page>
     );
