@@ -2,6 +2,8 @@ import React from 'react';
 import './BirdsPage.css';
 import Page from '../../components/Page/Page';
 import Bellbird from './Bellbird/Bellbird';
+import Fantail from './Fantail/Fantail';
+import Hihi from './Hihi/Hihi';
 
 export default class BirdsPage extends React.Component {
   constructor() {
@@ -47,8 +49,8 @@ export default class BirdsPage extends React.Component {
         <div className="ListNewsletters_content_cards">
           <div className="card-deck">
             <Bellbird handleOpenPopup={this.handleOpenPopup} />
-            <Bellbird handleOpenPopup={this.handleOpenPopup} />
-            <Bellbird handleOpenPopup={this.handleOpenPopup} />
+            <Fantail handleOpenPopup={this.handleOpenPopup} />
+            <Hihi handleOpenPopup={this.handleOpenPopup} />
           </div>
         </div>
       </Page>

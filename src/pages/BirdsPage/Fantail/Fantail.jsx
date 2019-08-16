@@ -1,14 +1,14 @@
 import React from 'react';
 import Bird from '../Bird';
-import bellbirdImg from './bellbird.jpg';
-import bellbirdSound from './bellbird.mp3';
+import bellbirdImg from './fantail.jpg';
+import bellbirdSound from './fantail.mp3';
 
 export default ({ handleOpenPopup }) => (
   <Bird
-    title="Korimako (Bellbird)"
+    title="Pīwakawaka (Fantail)"
     image={bellbirdImg}
     sound={bellbirdSound}
     handleOpenPopup={handleOpenPopup}
-    youtubeId="wfifZO49bSM"
+    youtubeId="An_TrhvFanY"
   />
 );
