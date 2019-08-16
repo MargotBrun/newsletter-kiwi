@@ -21,6 +21,5 @@
 }
 
 .ShinyLink.-multicolor::after {
-  animation: change-background-color 28s infinite;
-  animation-direction: alternate;
+  animation: change-background-color 28s infinite alternate;
 }

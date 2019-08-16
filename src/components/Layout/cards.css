@@ -7,8 +7,7 @@ a:hover{
 .card {
   border: none !important;
   border-radius: unset;
-  animation: change-color 28s infinite;
-  animation-direction: alternate;
+  animation: change-color 28s infinite alternate;
 }
 
 .card-deck .card {
@@ -27,6 +26,7 @@ a:hover{
 .card-footer {
   background-color: white;
   border-radius: none !important;
+  font-family: Domine, Verdana, Tahoma, Geneva, serif;
 }
 
 .card-hidden {

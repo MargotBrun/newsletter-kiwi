@@ -62,8 +62,7 @@
   font-size: 14px;
   padding: 10px 2%;
   border: 1px solid #e0dbdb;
-  animation: change-color 28s infinite;
-  animation-direction: alternate;
+  animation: change-color 28s infinite alternate;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
