@@ -50,7 +50,9 @@ export default class BirdsPage extends React.Component {
           </button>
         )}
 
-        <h2 className="BirdsPage_subtitle">Le chant des oiseaux de Nouvelle-Zélande</h2>
+        <h2 className="BirdsPage_subtitle">
+          Directement dans vos oreilles, le chant des oiseaux emblématiques de Nouvelle-Zélande
+        </h2>
         <div className="BirdsPage_cards">
           <div className="card-deck">
             <Tui handleOpenPopup={this.handleOpenPopup} />

@@ -72,6 +72,49 @@
     fill: rgb(242,99,99);
   }
 }
+
+.Layout_header{
+  max-width: 700px;
+  margin: auto;
+  position: relative;
+}
+
+.Layout_nav {
+  text-align: center;
+  margin-bottom: 40px;
+  position: absolute;
+  top: 50px;
+}
+@media(min-width: 1150px) {
+  .Layout_nav {
+    right: -250px;
+  }
+}
+
+.Layout_nav img {
+margin-left: 10px;
+}
+
+.Layout_nav_enveloppe {
+  position: relative;
+}
+
+.Layout_nav_enveloppe_number {
+  position: absolute;
+  background-color: white;
+  animation: change-color 28s infinite alternate;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 20px;
+  right: -3px;
+  top: -14px;
+}
+
 .Layout_content {
   min-height: 520px;
 }
