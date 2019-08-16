@@ -7,6 +7,9 @@ import Hihi from './Hihi/Hihi';
 import Kaka from './Kaka/Kaka';
 import Kiwi from './Kiwi/Kiwi';
 import Riroriro from './Riroriro/Riroriro';
+import Takahe from './Takahe/Takahe';
+import Tieke from './Tieke/Tieke';
+import Tui from './Tui/Tui';
 
 export default class BirdsPage extends React.Component {
   constructor() {
@@ -50,14 +53,19 @@ export default class BirdsPage extends React.Component {
         <h2 className="BirdsPage_subtitle">Le chant des oiseaux de Nouvelle-Zélande</h2>
         <div className="ListNewsletters_content_cards">
           <div className="card-deck">
+            <Tui handleOpenPopup={this.handleOpenPopup} />
             <Bellbird handleOpenPopup={this.handleOpenPopup} />
-            <Fantail handleOpenPopup={this.handleOpenPopup} />
-            <Hihi handleOpenPopup={this.handleOpenPopup} />
+            <Tieke handleOpenPopup={this.handleOpenPopup} />
           </div>
           <div className="card-deck">
             <Kaka handleOpenPopup={this.handleOpenPopup} />
             <Kiwi handleOpenPopup={this.handleOpenPopup} />
+            <Takahe handleOpenPopup={this.handleOpenPopup} />
+          </div>
+          <div className="card-deck">
+            <Fantail handleOpenPopup={this.handleOpenPopup} />
             <Riroriro handleOpenPopup={this.handleOpenPopup} />
+            <Hihi handleOpenPopup={this.handleOpenPopup} />
           </div>
         </div>
       </Page>
