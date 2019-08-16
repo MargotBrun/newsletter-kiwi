@@ -4,6 +4,9 @@ import Page from '../../components/Page/Page';
 import Bellbird from './Bellbird/Bellbird';
 import Fantail from './Fantail/Fantail';
 import Hihi from './Hihi/Hihi';
+import Kaka from './Kaka/Kaka';
+import Kiwi from './Kiwi/Kiwi';
+import Riroriro from './Riroriro/Riroriro';
 
 export default class BirdsPage extends React.Component {
   constructor() {
@@ -26,10 +29,9 @@ export default class BirdsPage extends React.Component {
     return (
       <Page title="Kei Te Waiata Ngā Manu" className="BirdsPage">
         {isPopupOpen && (
-          <div
+          <button
             className="BirdsPage_popup"
-            role="button"
-            tabIndex={0}
+            type="button"
             onClick={() => {
               this.setState({ isPopupOpen: false });
             }}
@@ -42,7 +44,7 @@ export default class BirdsPage extends React.Component {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
-          </div>
+          </button>
         )}
 
         <h2 className="BirdsPage_subtitle">Le chant des oiseaux de Nouvelle-Zélande</h2>
@@ -51,6 +53,11 @@ export default class BirdsPage extends React.Component {
             <Bellbird handleOpenPopup={this.handleOpenPopup} />
             <Fantail handleOpenPopup={this.handleOpenPopup} />
             <Hihi handleOpenPopup={this.handleOpenPopup} />
+          </div>
+          <div className="card-deck">
+            <Kaka handleOpenPopup={this.handleOpenPopup} />
+            <Kiwi handleOpenPopup={this.handleOpenPopup} />
+            <Riroriro handleOpenPopup={this.handleOpenPopup} />
           </div>
         </div>
       </Page>
