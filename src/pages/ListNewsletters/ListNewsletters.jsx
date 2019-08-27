@@ -11,6 +11,8 @@ import HeaderMarchPicture from './pictures/Header-March.jpg';
 import HeaderAvrilPicture from './pictures/Header-Avril.jpg';
 import HeaderMaiPicture from './pictures/Header-Mai.jpg';
 import HeaderJuinPicture from './pictures/Header-Juin.jpg';
+import HeaderJuilletPicture from './pictures/Header-Juillet.jpg';
+import HeaderAoutPicture from './pictures/Header-Aout.jpg';
 
 export default () => (
   <Page className="ListNewsletters" title="Toutes nos newsletters !">
@@ -292,6 +294,73 @@ export default () => (
             </ShinyLink>
           </div>
         </div>
+      </div>
+
+      <div className="card-deck">
+        <div className="card">
+          <a
+            href="http://sh1.sendinblue.com/nh4lxolx4c.html?t=1566884749"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={HeaderJuilletPicture}
+              className="card-img-top"
+              alt="Un mois musclé en activités"
+            />
+          </a>
+          <div className="card-body">
+            <h5 className="card-title">Un mois musclé en activités&nbsp;!</h5>
+            <p className="card-text">
+              Deuxième mois passé à Wellington. Entre nos boulots respectifs et quelques jours de
+              grosses pluies, nous avons tout de même réussi à faire des sorties bien sympas. La
+              rencontre avec une colonie de phoques et le match des All Blacks en sont les
+              principales !
+            </p>
+          </div>
+          <div className="card-footer">
+            <ShinyLink
+              href="http://sh1.sendinblue.com/nh4lxolx4c.html?t=1566884749"
+              target="_blank"
+              rel="noopener noreferrer"
+              multicolor
+            >
+              <small>Lire la newsletter de Juillet</small>
+            </ShinyLink>
+          </div>
+        </div>
+        <div className="card">
+          <a
+            href="http://sh1.sendinblue.com/nhe39olx4c.html?t=1566887204"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={HeaderAoutPicture}
+              className="card-img-top"
+              alt="Le pays des Kiwis c'est fini"
+            />
+          </a>
+          <div className="card-body">
+            <h5 className="card-title">Le pays des Kiwis c'est fini 🥝</h5>
+            <p className="card-text">
+              Dernier mois aux allures de bouquet final au pays des Kiwis ! Entre culture et nature
+              nous en avons tiré <i>the most of it</i> et c'est (presque) sans aucun regret que nous
+              nous envolons pour quelques jours en Asie.
+            </p>
+          </div>
+          <div className="card-footer">
+            <ShinyLink
+              href="http://sh1.sendinblue.com/nhe39olx4c.html?t=1566887204"
+              target="_blank"
+              rel="noopener noreferrer"
+              multicolor
+            >
+              <small>Lire la newsletter d'août</small>
+            </ShinyLink>
+          </div>
+        </div>
+        <div className="card card-hidden" />
       </div>
     </div>
     <div className="ListNewsletters_content_interest">
