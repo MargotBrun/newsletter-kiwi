@@ -10,4 +10,4 @@ services:
         environment:
           - NODE_ENV=production
         ports:
-          - ${PORT:-80}:3000
+          - ${PORT:-80}:80
